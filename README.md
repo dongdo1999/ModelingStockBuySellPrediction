@@ -1,7 +1,7 @@
-2023-1-PSAT-team-timeseries
+# 2023-1-PSAT-team-timeseries
 Topic Analysis by the P-SAT Time Series Data Analysis Team in the Statistical Analysis Society for the 1st Semester of 2023
 
-💻 Project Introduction
+## 💻 Project Introduction
 <Stock Buy/Sell Recommendation Service for Risk Management for Beginner Investors>📈
 
 For 'beginner investors'😢 who find it difficult to understand stock-related information and trends, our model recommends buying/holding/selling by learning from data that can affect stock prices, providing easy and simple insights into investment!😊
@@ -12,32 +12,36 @@ Data Sources: Korea Exchange, Bank of Korea Economic Statistics System, KOSIS, i
 
 Development Period: April 16, 2023 ~ May 19, 2023
 
-❤️ Team Members and Roles
+## ❤️ Team Members and Roles
 Kim Min (Team Leader): Data collection, data preprocessing, Y~X EDA, variable selection (KS test), XGB, LSTM-CNN, LGBM
 Kim Dong-hwan: Rate of change labeling, data preprocessing, Y~X EDA, variable selection (causality test), VAR, LGBM, SVM, log reg
 Seo Yoo-jin: Data collection (+crawling), data preprocessing, X variable EDA, LSTM regression (threshold automation)
 Lee Soo-rin: X variable EDA, variable selection (PCA, factor analysis, VIF, importance), XGB, Naive Bayes
 Jang Da-yeon: Data preprocessing, sentiment analysis of Korean/English articles, random forest, XGB, LGBM
-🔍 Analysis Workflow
-Data Collection
-Data Preprocessing (Sentiment analysis of news articles, data merging, interpolation of missing values, standardization of data types to numerical, chronological sorting)
-EDA (Exploratory Data Analysis) (EDA between X variables, EDA between Y~X variables)
-Labeling Rate of Change (continuous) -> Buy/Hold/Sell (categorical)
-Feature Selection (causality test, VIF, PCA, factor analysis, feature importance, KS test attempts)
-Predictive Modeling of Labeled Y Variables (with imbalanced class problem😭)
-Visualization and Analysis of Prediction Results
-📈 Modeling Overview
+
+## 🔍 Analysis Workflow
+
+1. Data Collection
+2. Data Preprocessing (Sentiment analysis of news articles, data merging, interpolation of missing values, standardization of data types to numerical, chronological sorting)
+3. EDA (Exploratory Data Analysis) (EDA between X variables, EDA between Y~X variables)
+4. Labeling Rate of Change (continuous) -> Buy/Hold/Sell (categorical)
+5. Feature Selection (causality test, VIF, PCA, factor analysis, feature importance, KS test attempts)
+6. Predictive Modeling of Labeled Y Variables (with imbalanced class problem😭)
+7. Visualization and Analysis of Prediction Results
+
+## 📈 Modeling Overview
 
 
-🚨 Class Imbalance Problem
+## 🚨 Class Imbalance Problem
 There is a significant class imbalance due to the higher number of predicted labels compared to buy/sell -> Poor prediction performance for buy/sell
 
-💡 Efforts to Resolve:
+## 💡 Efforts to Resolve:
 
-Selection of models suitable for the project's purpose through custom evaluation metrics rather than simple accuracy or f1-score (e.g., average of accuracy and precision for buy and sell / average accuracy for buy, sell, and hold, etc.)
-Reflecting sample weights for each class during model training
-Regression prediction of labels -> Determination of classification threshold with validation set -> Final classification
-📃 Results
+- Selection of models suitable for the project's purpose through custom evaluation metrics rather than simple accuracy or f1-score (e.g., average of accuracy and precision for buy and sell / average accuracy for buy, sell, and hold, etc.)
+- Reflecting sample weights for each class during model training
+- Regression prediction of labels -> Determination of classification threshold with validation set -> Final classification
+ 
+## 📃 Results
 
 
 
