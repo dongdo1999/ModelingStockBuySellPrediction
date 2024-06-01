@@ -31,7 +31,7 @@ Development Period: April 16, 2023 ~ May 19, 2023
 7. Visualization and Analysis of Prediction Results
 
 ## 📈 Modeling Overview
-
+![image](https://github.com/dongdo1999/ModelingStockBuySellPrediction/assets/47492780/29166469-140b-40f2-89ca-95737de88084)
 
 ## 🚨 Class Imbalance Problem
 There is a significant class imbalance due to the higher number of predicted labels compared to buy/sell -> Poor prediction performance for buy/sell
