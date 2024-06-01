@@ -43,6 +43,9 @@ There is a significant class imbalance due to the higher number of predicted lab
 - Regression prediction of labels -> Determination of classification threshold with validation set -> Final classification
  
 ## 📃 Results
+![image](https://github.com/dongdo1999/ModelingStockBuySellPrediction/assets/47492780/ebe7dddf-c617-4343-9e42-0238cd15ef28)
+![image](https://github.com/dongdo1999/ModelingStockBuySellPrediction/assets/47492780/4d89a3e5-1140-4bef-b31c-a73482265fda)
+
 
 
 
