@@ -13,11 +13,12 @@ Data Sources: Korea Exchange, Bank of Korea Economic Statistics System, KOSIS, i
 Development Period: April 16, 2023 ~ May 19, 2023
 
 ## ❤️ Team Members and Roles
-Kim Min (Team Leader): Data collection, data preprocessing, Y~X EDA, variable selection (KS test), XGB, LSTM-CNN, LGBM
-Kim Dong-hwan: Rate of change labeling, data preprocessing, Y~X EDA, variable selection (causality test), VAR, LGBM, SVM, log reg
-Seo Yoo-jin: Data collection (+crawling), data preprocessing, X variable EDA, LSTM regression (threshold automation)
-Lee Soo-rin: X variable EDA, variable selection (PCA, factor analysis, VIF, importance), XGB, Naive Bayes
-Jang Da-yeon: Data preprocessing, sentiment analysis of Korean/English articles, random forest, XGB, LGBM
+
+- Kim Min (Team Leader): Data collection, data preprocessing, Y~X EDA, variable selection (KS test), XGB, LSTM-CNN, LGBM
+- Kim Dong-hwan: Rate of change labeling, data preprocessing, Y~X EDA, variable selection (causality test), VAR, LGBM, SVM, log reg
+- Seo Yoo-jin: Data collection (+crawling), data preprocessing, X variable EDA, LSTM regression (threshold automation)
+- Lee Soo-rin: X variable EDA, variable selection (PCA, factor analysis, VIF, importance), XGB, Naive Bayes
+- Jang Da-yeon: Data preprocessing, sentiment analysis of Korean/English articles, random forest, XGB, LGBM
 
 ## 🔍 Analysis Workflow
 
